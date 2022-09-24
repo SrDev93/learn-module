@@ -20,5 +20,6 @@ composer require srdev93/learn-module
 
 then run:
 ```php
+php artisan module:enable learn
 php artisan module:migrate learn
 ```
