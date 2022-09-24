@@ -1,0 +1,13 @@
+{
+    "name": "Learn",
+    "alias": "learn",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Learn\\Providers\\LearnServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
