@@ -11,6 +11,6 @@
 |
 */
 
-Route::prefix('')->group(function() {
+Route::prefix('')->middleware('auth')->group(function() {
     Route::resource('learn', 'LearnController');
 });

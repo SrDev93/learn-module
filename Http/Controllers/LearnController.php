@@ -39,7 +39,7 @@ class LearnController extends Controller
     {
         try {
             $learn = Learn::create([
-                'user_id' => 1,
+                'user_id' => Auth::id(),
                 'title' => $request->title,
                 'slug' => $request->slug,
                 'short_text' => $request->short_text,
